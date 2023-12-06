@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.SSC.Web.Microservices", "src\Undersoft.SSC.Web.Microservices\Undersoft.SSC.Web.Microservices.csproj", "{8BE560E5-D24F-4230-A3B9-C2D590CB15FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.SSC.Web.Microservices.Account", "src\Undersoft.SSC.Web.Microservices.Account\Undersoft.SSC.Web.Microservices.Account.csproj", "{27AB310A-02F9-416A-A467-737A334DFFFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.SSC.Web.Microservices.Account.Service", "src\Undersoft.SSC.Web.Microservices.Account.Service\Undersoft.SSC.Web.Microservices.Account.Service.csproj", "{3DF5AEE0-FFBC-4D2F-B1AE-275A00E84298}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.SSC.Web.Microservices.Activity", "src\Undersoft.SSC.Web.Microservices.Activity\Undersoft.SSC.Web.Microservices.Activity.csproj", "{7636C10D-829B-4755-9602-AFF07876411A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.SSC.Web.Microservices.Activity.Service", "src\Undersoft.SSC.Web.Microservices.Activity.Service\Undersoft.SSC.Web.Microservices.Activity.Service.csproj", "{2A1069F7-7D6B-4353-A1FD-CF3B21884518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.SSC.Web.Microservices.Resource", "src\Undersoft.SSC.Web.Microservices.Resource\Undersoft.SSC.Web.Microservices.Resource.csproj", "{076B3098-16B1-4D20-AB85-48F3EC4F294A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.SSC.Web.Microservices.Resource.Service", "src\Undersoft.SSC.Web.Microservices.Resource.Service\Undersoft.SSC.Web.Microservices.Resource.Service.csproj", "{35B1816A-9BED-46D6-91FE-91DE62BB87A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.SSC.Web.Microservices.Schedule", "src\Undersoft.SSC.Web.Microservices.Schedule\Undersoft.SSC.Web.Microservices.Schedule.csproj", "{9E858ED7-E46E-40F4-9BCE-32734150726B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.SSC.Web.Microservices.Schedule.Service", "src\Undersoft.SSC.Web.Microservices.Schedule.Service\Undersoft.SSC.Web.Microservices.Schedule.Service.csproj", "{05A36764-A6B4-48C6-93C6-899501BB9D31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE560E5-D24F-4230-A3B9-C2D590CB15FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE560E5-D24F-4230-A3B9-C2D590CB15FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE560E5-D24F-4230-A3B9-C2D590CB15FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE560E5-D24F-4230-A3B9-C2D590CB15FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AB310A-02F9-416A-A467-737A334DFFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AB310A-02F9-416A-A467-737A334DFFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AB310A-02F9-416A-A467-737A334DFFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AB310A-02F9-416A-A467-737A334DFFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF5AEE0-FFBC-4D2F-B1AE-275A00E84298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF5AEE0-FFBC-4D2F-B1AE-275A00E84298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF5AEE0-FFBC-4D2F-B1AE-275A00E84298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF5AEE0-FFBC-4D2F-B1AE-275A00E84298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7636C10D-829B-4755-9602-AFF07876411A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7636C10D-829B-4755-9602-AFF07876411A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7636C10D-829B-4755-9602-AFF07876411A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7636C10D-829B-4755-9602-AFF07876411A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1069F7-7D6B-4353-A1FD-CF3B21884518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1069F7-7D6B-4353-A1FD-CF3B21884518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1069F7-7D6B-4353-A1FD-CF3B21884518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1069F7-7D6B-4353-A1FD-CF3B21884518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076B3098-16B1-4D20-AB85-48F3EC4F294A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076B3098-16B1-4D20-AB85-48F3EC4F294A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076B3098-16B1-4D20-AB85-48F3EC4F294A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076B3098-16B1-4D20-AB85-48F3EC4F294A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B1816A-9BED-46D6-91FE-91DE62BB87A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B1816A-9BED-46D6-91FE-91DE62BB87A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B1816A-9BED-46D6-91FE-91DE62BB87A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B1816A-9BED-46D6-91FE-91DE62BB87A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E858ED7-E46E-40F4-9BCE-32734150726B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E858ED7-E46E-40F4-9BCE-32734150726B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E858ED7-E46E-40F4-9BCE-32734150726B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E858ED7-E46E-40F4-9BCE-32734150726B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A36764-A6B4-48C6-93C6-899501BB9D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A36764-A6B4-48C6-93C6-899501BB9D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A36764-A6B4-48C6-93C6-899501BB9D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A36764-A6B4-48C6-93C6-899501BB9D31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F31728AB-97C6-4E0D-B412-898579AA77AD}
+	EndGlobalSection
+EndGlobal

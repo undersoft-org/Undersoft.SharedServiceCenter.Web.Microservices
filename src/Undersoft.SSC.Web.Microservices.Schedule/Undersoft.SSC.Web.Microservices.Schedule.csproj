@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>2e23f1cc-5ef2-44a4-83ae-0123d3ca2365</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.23">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Undersoft.SSC.Web.Microservices\Undersoft.SSC.Web.Microservices.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Using Include="Undersoft.SSC.Web.API.Controllers" />
+    <Using Include="Undersoft.SDK.Service.Application.Controller" />
+    <Using Include="Undersoft.SDK.Service.Data.Event" />
+    <Using Include="Undersoft.SDK.Service.Data.Mapper" />
+    <Using Include="Undersoft.SDK.Service.Data.Store" />
+    <Using Include="Undersoft.SDK.Service.Data.Store.Relation" />
+    <Using Include="Undersoft.SDK.Service.Data.Service" />
+    <Using Include="Undersoft.SDK.Service.Data.File" />
+    <Using Include="Undersoft.SDK.Service" />
+    <Using Include="Undersoft.SDK.Extracting" />
+    <Using Include="Undersoft.SDK.Invoking" />
+    <Using Include="Undersoft.SDK.Series" />
+    <Using Include="Undersoft.SDK.Instant" />
+    <Using Include="Undersoft.SDK.Instant.Updating" />
+    <Using Include="Undersoft.SDK.Instant.Proxies" />
+    <Using Include="Undersoft.SDK.Logging" />
+    <Using Include="Undersoft.SDK.Uniques" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Properties\nlog.config">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Properties\nlog.Development.config">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
